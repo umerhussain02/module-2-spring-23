@@ -115,23 +115,6 @@ function App() {
       </ol>
     </main>
   );
-
-  // ---------------
-
-  // return (
-  //   <>
-  //     <h1>List</h1>
-  //     <input value={text} onChange={(e) => setText(e.target.value)} />
-  //     <button onClick={addUser}>Add User</button>
-  //     <ol>
-  //       {list?.map((index, item) => (
-  //         <div key={index}>
-  //           <li>{item.name}</li>
-  //         </div>
-  //       ))}
-  //     </ol>
-  //   </>
-  // );
 }
 
 export default App;
